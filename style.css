@@ -1,0 +1,372 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background:linear-gradient(rgb(0,0,0,0.90),rgb(0,0,0,0.90)),url("gym.jpg");
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat:inherit;
+
+}
+
+
+.container{
+	width: 100%;
+	
+}
+
+.menu-host{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 70px 0 70px;
+	color: white;
+	
+	
+	
+	
+}
+
+h3{
+	 font-size: 2rem;
+	 text-transform: capitalize;
+	 font-family: sans-serif;
+	 letter-spacing: 2px;
+	 color: red;
+	 border: 2px solid red;
+	 border-radius: 20px;
+	 padding: 5px;
+	 
+}
+h3:hover{
+	cursor: pointer;
+	color: rgb(255, 255, 255);
+}
+
+a{
+	text-decoration: none;
+	font-family: sans-serif;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+	margin: 20px;
+}
+
+a:hover{
+	border-bottom: 5px solid red;
+	}
+
+
+  .title{
+  	color: white;
+  	text-align: center;
+  	margin-top: 150px;
+  	
+  }
+
+ h1{
+ 	font-size: 4rem;
+ 	font-family: sans-serif;
+ 	text-transform: capitalize;
+ 	font-weight: bold;
+ }
+
+ p{
+ 	font-size: 2rem;
+ 	max-width: 600px;
+ 	font-family: sans-serif;
+ 	text-transform: capitalize;
+ 	display: block;
+ 	margin: auto;
+ 	margin-top: 25px;
+
+ }
+
+ .headsix>a{
+
+ 	 background: red;
+ 	 display: inline-block;
+ 	 font-size: 25px;
+ 	 text-transform: uppercase;
+ 	 padding: 10px;
+ 	 border-radius: 25px;
+ 	 letter-spacing: 2px;
+ 	 margin-top: 25px;
+	cursor: pointer;
+ }
+ .headsix>a:hover{
+	 color: rgb(0, 0, 0);
+ }
+ .M{
+	 color: red;
+	 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .F{
+	 color: red;
+	 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .F:hover{
+	 color: azure;
+ }
+ .M:hover{
+	 color: aliceblue;
+ }
+ .footer{
+	 color:white;
+	 text-align: center;
+	 font-family: sans-serif;
+	 margin-top: 60vh;
+	 
+
+ }
+ /*Contact Form Style*/
+ .form{
+	 background: red;
+	 margin-top: 50px;
+	 margin-left: 300px;
+	 margin-right: 300px;
+	font-size: 15px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	height:fit-content;
+	border: 1px solid white;
+
+	
+	
+ }
+ .form>form>label{
+	 font-size: 2rem;
+	 font-family: 'Times New Roman', Times, serif;
+	}
+
+
+ .form>form>input{
+	width: 92%;
+    border-radius: 5px;
+    height: 5vh;
+    border: 1px solid white;
+    margin-left: 20px;
+ }
+ #US{
+	 text-align: center;
+	 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+ }
+ .m>button{
+	 background-color: black;
+	 color: white;
+	 width: 25%;
+	 height: 5vh;
+	 border: 1px solid white;
+	 border-radius: 5px;
+
+ }
+ .m>button:hover{
+	 background-color:white;
+	 color:black;
+	 border: 1px solid green;
+	 border-radius: 5.5px;
+ }
+
+ #H{
+	 color: white;
+	 text-align: center;
+	 border: 5px solid rgb(216, 10, 10);
+	 border-radius: 5px;
+	 background-color: rgba(0, 0, 0, 0.52);
+	 font-size: 1.5em;
+	 
+ }
+ .name{
+	 text-align: left;
+	
+ }
+ #WE{
+	 color: red;
+	 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	 font-size: 3rem;
+ }
+ /* Division for Workout Selection */
+ 
+ .Div{
+	 width: 40%;
+	 background-color: rgb(192, 186, 106);
+	 height: 30vh;
+	 text-align: center;
+	 margin-left: 424px;
+	 margin-right: 300px;
+	 border: 3px solid rgb(251, 255, 0);
+	
+
+ }
+ .Div>label{
+	 color: rgb(255, 255, 255);
+	 font-size: 2rem;
+	 font-family: fantasy;
+	 
+ }
+ .Div>label:hover{
+	color: rgb(0, 0, 0);
+	
+	
+}
+.Div>select{
+	background-color: yellow;
+	width: 60%;
+	height: 5vh;
+
+}
+.Div>select>option{
+	font-size: 2rem;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Lo{
+	color: yellow;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.5em;
+	text-align: center;
+	
+}
+/* Picture Alignment */
+.row>.column>img{
+	width: 100%;
+}
+.column{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	border: 1px solid yellow;
+	border-radius: 10px;
+	
+}
+.row::after{
+	content: "";
+	display: table;
+	clear: both;
+	
+
+}
+.team{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	border: 1px solid yellow;
+	border-radius: 10px;
+	
+	
+}
+.box::after{
+	content: "";
+	display:table;
+	clear: both;
+	
+	
+
+}
+
+.About > h1{
+	font-weight: 400;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 40px;
+	
+
+}
+
+.About >a{
+	color: red;
+	
+}
+
+.About p{
+	font-size: 1.5rem;
+	font-family: 'Times New Roman', Times, serif;
+
+}
+
+.paragraph > h1{
+	font-weight: 900;
+
+}
+
+.paragraph > h2{
+	font-size: 30px  ;
+}
+
+.paragraph > p{
+	font-size: 20px;
+	
+}
+
+.photo{
+	
+	display: flex;
+	flex-direction: column;
+	padding: 50px 40px 40px 40px;
+	
+	margin-right: 0 10px 0 10px;
+
+}
+.photo > a{
+	text-align: center;
+	color: rgb(255, 241, 241);
+	border: 1px solid red ;
+	border-radius: 5px;
+	background-color: red;
+	margin-left: 600px;
+	margin-right: 600px;
+
+}
+.photo > a:hover{
+	color: black;
+}
+ .hit{
+	border: 5px solid yellow;
+}
+.team{
+	display: flex;
+	border: none;
+	margin-left: 30px;
+	width: fit-content;
+	
+}
+.TM{
+	width: 50%;
+	padding: 30px;
+}
+.TX{
+	margin-top: 350px;
+	text-align: left;
+	margin-left: 0;
+	padding-left: 0px;
+	font-size: 10px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.Green{
+	color: green;
+	border-bottom: 1px solid yellow;
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+}
+.service {
+	color: white;
+	font-size: 30px;
+}
+.FT {
+	display: flex;
+	justify-content: center;
+	
+}
+.name3{
+	color: white;
+	font-size: 3em;
+	margin-left: 50px;
+}
+.name3>.wrapper{
+	color: red;
+	font-family: cursive;
+}
